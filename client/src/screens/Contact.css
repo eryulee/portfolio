@@ -1,0 +1,340 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo+2');
+
+.navgoeshere {
+  background-color: #def1e7;
+  background-color: #fafafa;
+  padding-bottom: 15px;
+  font-variant-caps: all-petite-caps;
+}
+
+.main-container3 {
+  /* background-color: #def1e7; */
+  background-color: #ffffff;
+  filter: opacity(80%);
+}
+
+.form {
+  border: 1px solid #def1e7;
+  /* margin-right: 60%; */
+  padding-left: 50px;
+  width: 55%;
+  padding-bottom: 50px;
+  padding-top: 50px;
+  padding-right: 50px;
+  margin-left: 16%;
+  margin-top: 0px;
+  margin-bottom: 50px;
+  background-color: #def1e7;
+  /* filter: opacity(60%); */
+  align-self: center;
+  align-content: center;
+  justify-content: center;
+  border-radius: 25px;
+  outline: none;
+  box-shadow:3px 3px 0px #fafafa;
+}
+
+.some-text {
+  letter-spacing: 3px;
+  font-weight: 220;
+  text-align: center;
+  color: #404040;
+  font-family: 'Baloo 2';
+  margin-bottom: 0;
+  margin-top: 50px;
+  font-size: 25px;
+  padding-bottom: 0;
+}
+
+.input {
+  margin-bottom: 25px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 20px;
+  padding-left: 20px;
+  width: 75%;
+  font-family: 'Baloo 2';
+  font-size: 15px;
+  letter-spacing: 2px;
+  align-self: center;
+  align-content: center;
+  justify-content: center;
+  border-radius: 10px;
+  border:none;
+  margin-left: 25px;
+}
+
+.sendbtn {
+  background-color: #fafafa;
+  color: #7f7f7f;
+  border: 1px solid #7f7f7f;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 30px;
+  padding-left: 30px;
+  font-family: 'Baloo 2';
+  font-size: 15px;
+  letter-spacing: 2px;
+  text-align: center;
+  align-self: center;
+  margin-left: 38%;
+  border: none;
+  border-radius: 10px;
+
+}
+
+.form-input {
+  padding-bottom: 80px;
+  padding-top: 80px;
+  align-content: center;
+  align-self: center;
+  /* text-align: center; */
+  justify-content: center;
+
+}
+
+@media only screen and (min-width: 320px) {
+  .form {
+   
+    padding-left: 20px;
+    width: 75%;
+    padding-bottom: 25px;
+    padding-top: 25px;
+    padding-right: 20px;
+    margin-left: 7%;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    background-color: #def1e7;
+    /* filter: opacity(60%); */
+    align-self: center;
+    align-content: center;
+    justify-content: center;
+    border-radius: 25px;
+    outline: none;
+    box-shadow:3px 3px 0px #fafafa;
+  }
+
+  .input {
+    margin-bottom: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 5px;
+    padding-left: 5px;
+    width: 78%;
+    font-family: 'Baloo 2';
+    font-size: 13px;
+    letter-spacing: 2px;
+    align-self: center;
+    align-content: center;
+    justify-content: center;
+    border-radius: 8px;
+    border:none;
+    margin-left: 25px;
+  }
+
+  .sendbtn {
+    background-color: #fafafa;
+    color: #7f7f7f;
+    border: 1px solid #7f7f7f;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-family: 'Baloo 2';
+    font-size: 12px;
+    letter-spacing: 2px;
+    text-align: center;
+    align-self: center;
+    margin-left: 40%;
+    border: none;
+    border-radius: 10px;
+  
+  }
+
+  .some-text {
+    letter-spacing: 1px;
+    font-weight: 220;
+    text-align: center;
+    color: #404040;
+    font-family: 'Baloo 2';
+    margin-bottom: 0;
+    margin-top: 30px;
+    font-size: 20px;
+    padding-bottom: 0;
+  }
+
+  .form-input {
+    padding-bottom: 20px;
+    padding-top: 20px;
+    align-content: center;
+    align-self: center;
+    /* text-align: center; */
+    justify-content: center;
+  
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .form {
+   
+    padding-left: 10px;
+    width: 55%;
+    padding-bottom: 45px;
+    padding-top: 45px;
+    padding-right: 10px;
+    margin-left: 21%;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    background-color: #def1e7;
+    /* filter: opacity(60%); */
+    align-self: center;
+    align-content: center;
+    justify-content: center;
+    border-radius: 25px;
+    outline: none;
+    box-shadow:3px 3px 0px #fafafa;
+  }
+
+  .input {
+    margin-bottom: 25px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-right: 5px;
+    padding-left: 10px;
+    width: 75%;
+    font-family: 'Baloo 2';
+    font-size: 15px;
+    letter-spacing: 2px;
+    align-self: center;
+    align-content: center;
+    justify-content: center;
+    border-radius: 8px;
+    border:none;
+    margin-left: 45px;
+  }
+
+  .sendbtn {
+    background-color: #fafafa;
+    color: #7f7f7f;
+    border: 1px solid #7f7f7f;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 40px;
+    padding-left: 40px;
+    font-family: 'Baloo 2';
+    font-size: 12px;
+    letter-spacing: 2px;
+    text-align: center;
+    align-self: center;
+    margin-left: 38%;
+    border: none;
+    border-radius: 10px;
+  
+  }
+
+  .some-text {
+    letter-spacing: 1px;
+    font-weight: 220;
+    text-align: center;
+    color: #404040;
+    font-family: 'Baloo 2';
+    margin-bottom: 0;
+    margin-top: 30px;
+    font-size: 20px;
+    padding-bottom: 0;
+  }
+
+  .form-input {
+    padding-bottom: 20px;
+    padding-top: 40px;
+    align-content: center;
+    align-self: center;
+    /* text-align: center; */
+    justify-content: center;
+  
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .form {
+   
+    padding-left: 10px;
+    width: 55%;
+    padding-bottom: 45px;
+    padding-top: 45px;
+    padding-right: 10px;
+    margin-left: 21%;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    background-color: #def1e7;
+    /* filter: opacity(60%); */
+    align-self: center;
+    align-content: center;
+    justify-content: center;
+    border-radius: 25px;
+    outline: none;
+    box-shadow:3px 3px 0px #fafafa;
+  }
+
+  .input {
+    margin-bottom: 25px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-right: 12px;
+    padding-left: 12px;
+    width: 75%;
+    font-family: 'Baloo 2';
+    font-size: 18px;
+    letter-spacing: 2px;
+    align-self: center;
+    align-content: center;
+    justify-content: center;
+    border-radius: 8px;
+    border:none;
+    margin-left: 45px;
+  }
+
+  .sendbtn {
+    background-color: #fafafa;
+    color: #7f7f7f;
+    border: 1px solid #7f7f7f;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 50px;
+    padding-left: 50px;
+    font-family: 'Baloo 2';
+    font-size: 18px;
+    letter-spacing: 2px;
+    text-align: center;
+    align-self: center;
+    margin-left: 38%;
+    border: none;
+    border-radius: 10px;
+  
+  }
+
+  .some-text {
+    letter-spacing: 1px;
+    font-weight: 220;
+    text-align: center;
+    color: #404040;
+    font-family: 'Baloo 2';
+    margin-bottom: 20px;
+    margin-top: 60px;
+    font-size: 20px;
+    padding-bottom: 0;
+  }
+
+  .form-input {
+    padding-bottom: 20px;
+    padding-top: 40px;
+    align-content: center;
+    align-self: center;
+    /* text-align: center; */
+    justify-content: center;
+  
+  }
+}
+
+
+

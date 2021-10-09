@@ -31,25 +31,29 @@ const Contact = () => {
   };
 
   return (
-    <div className="main-container">
+    <div className="main-container3">
 <div className="navgoeshere">
           <nav className='navigation'>
           <Link className='navlinks' to='/'>Home</Link>
-            <Link className='navlinks' to='/projects'>Porfolio</Link>
+            <Link className='navlinks' to='/projects'>Portfolio</Link>
             <Link className='navlinks' to='/contact'>Contact Me</Link>
-            <Link className='navlinks' to='/about'>About Me</Link>
+            
           </nav>
-        </div>
+      </div>
+      
+      <div className='some-text'>Send me an email!</div>
 
-    <form ref={form} onSubmit={sendEmail}>
-      <label>Name</label>
-      <input type="text" name="user_name" />
-      <label>Email</label>
-      <input type="email" name="user_email" />
-      <label>Message</label>
-      <textarea name="message" />
-      <input type="submit" value="Send" />
+      <div className='form-input'>
+    <form className='form' ref={form} onSubmit={sendEmail}>
+      <input type="text" name="user_name" placeholder='Name:' className='input'/>
+     <br />
+      <input type="email" name="user_email" placeholder='Email:' className='input'/>
+     <br />
+          <textarea name="message" placeholder='Message:' className='input'/>
+          <br />
+      <input type="submit" value="Send" className='sendbtn'  />
       </form>
+      </div>
       </div>
   );
 };

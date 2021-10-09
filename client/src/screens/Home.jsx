@@ -5,12 +5,12 @@ function Home() {
   return (
     <>
       <div className="main-container">
-        <div className="navgoeshere">
+        <div className="navgoeshere1">
           <nav className='navigation'>
           <Link className='navlinks' to='/'>Home</Link>
-            <Link className='navlinks' to='/projects'>Porfolio</Link>
+            <Link className='navlinks' to='/projects'>Portfolio</Link>
             <Link className='navlinks' to='/contact'>Contact Me</Link>
-            <Link className='navlinks' to='/about'>About Me</Link>
+           
           </nav>
         </div>
         
@@ -39,6 +39,11 @@ function Home() {
             alt="background"
             id="background"
           />
+        </div>
+        <div className='descrip'>
+          <p className='aboutmetext'>
+          "I'm a full-stack developer residing in New Mexico. I'm passionate about helping people capture their imagination to create dynamic and captivating content. When I'm not coding, my hobbies include pilates, photography, painting, and piano." 
+          </p>
         </div>
 
         {/* <Link to='/projects' id='projects-link'>

@@ -2,7 +2,7 @@ import Home from "./screens/Home.jsx";
 import Portfolio from './screens/Portfolio.jsx'
 import Contact from './screens/Contact.jsx'
 import { Route } from 'react-router-dom'
-import About from './screens/About.jsx'
+
 import './App.css';
 
 function App() {
@@ -12,9 +12,7 @@ function App() {
       <Home />
       </Route>
 
-      <Route path="/about">
-        <About />
-        </Route>
+      
 
       <Route path="/projects">
         <Portfolio />
