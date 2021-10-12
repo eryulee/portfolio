@@ -15,13 +15,13 @@ function Home() {
         </div>
         
 
-        {/* <div className='pic'>
+        <div className='pic'>
           <img src='https://i.imgur.com/pD9Kf8q.jpg'
             alt='profile'
             id='profile' />
             
         
-        </div> */}
+        </div>
 
         <div className="about-me">
           <h1 className="my-name">👋 <br /> I'm Esther.</h1>
@@ -35,14 +35,15 @@ function Home() {
 
         <div className="background-pic">
           <img
-            src="https://i.imgur.com/9LGr5ik.png?1"
+            // src="https://i.imgur.com/9LGr5ik.png?1"
+            src="https://i.imgur.com/kAK9Gdh.png"
             alt="background"
             id="background"
           />
         </div>
         <div className='descrip'>
           <p className='aboutmetext'>
-          "I'm a full-stack developer residing in New Mexico. I'm passionate about helping people capture their imagination to create dynamic and captivating content. When I'm not coding, my hobbies include pilates, photography, painting, and piano." 
+          "I'm a full-stack developer residing in New Mexico. I'm passionate about helping people capture their imagination to create captivating content. My previous pharmacy technician experience has given me the tools to work well under pressure in high-stress environments and also to function well in a group setting. My background in psychology has also given me the ability to understand people and befriend people with varying personality types. When I'm not coding, my hobbies include pilates, photography, painting, and piano." 
           </p>
         </div>
 
