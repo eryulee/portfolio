@@ -43,6 +43,7 @@ const Contact = () => {
       
       <div className='some-text'>Send me an email!</div>
 
+      <div className='form-div'>
       <div className='form-input'>
     <form className='form' ref={form} onSubmit={sendEmail}>
       <input type="text" name="user_name" placeholder='Name:' className='input'/>
@@ -53,6 +54,30 @@ const Contact = () => {
           <br />
       <input type="submit" value="Send" className='sendbtn'  />
       </form>
+        </div>
+        </div>
+
+      <hr />
+
+      <div className='footer'>
+
+       
+        <div className='linkedin-div'>
+        <a href='https://www.linkedin.com/in/esther-ryu-lee/' target='_blank'>
+        <img src='https://i.imgur.com/n473TYn.png'
+          alt='linkedin'
+        id='linkedin'/>
+          </a>
+          </div>
+
+        <div className='git-div'>
+        <a href='https://github.com/eryulee' target='_blank'>
+          <img src='https://i.imgur.com/v6qvRxk.png'
+            alt='github'
+          id='github' />
+        </a>
+        </div>
+
       </div>
       </div>
   );
