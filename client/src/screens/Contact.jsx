@@ -36,7 +36,8 @@ const Contact = () => {
           <nav className='navigation'>
           <Link className='navlinks' to='/'>Home</Link>
             <Link className='navlinks' to='/projects'>Portfolio</Link>
-            <Link className='navlinks' to='/contact'>Contact Me</Link>
+          <Link className='navlinks' to='/contact'>Contact Me</Link>
+          <Link className='navlinks' to='/resume'>Resume</Link>
             
           </nav>
       </div>

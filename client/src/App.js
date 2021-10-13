@@ -1,6 +1,7 @@
 import Home from "./screens/Home.jsx";
 import Portfolio from './screens/Portfolio.jsx'
 import Contact from './screens/Contact.jsx'
+import Resume from './screens/Resume.jsx'
 import { Route } from 'react-router-dom'
 
 import './App.css';
@@ -20,6 +21,10 @@ function App() {
 
       <Route path='/contact'>
         <Contact />
+      </Route>
+
+      <Route path='/resume'>
+        <Resume />
       </Route>
     </div>
   );
