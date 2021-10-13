@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo+2');
+
+.proj-div img {
+  width:  100%;
+  color: #000000;
+  background-color: #000000;
+  /* border-color: #7b7c78; */
+  /* border: 1px solid #7b7c78; */
+  /* filter: opacity(80%) */
+  width: 15rem;
+  height: 15rem;
+  text-align: center;
+  border-radius: 10%;
+  margin-top: 75px;
+  /* margin-bottom: 75px; */
+  border: none;
+  
+  
+  
+}
+
+
+.listing-projects-div {
+  background-color: #f8f5f2;
+  text-align: center;
+}
+
+.card-title {
+  text-align: center;
+  text-decoration: none;
+}
+
+.card-name {
+  text-decoration: none;
+  font-weight: 260px;
+  font-family: 'Baloo 2';
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+
+.card-name1 {
+  text-decoration: none;
+  font-weight: 260px;
+  font-family: 'Baloo 2';
+  margin-left: 20%;
+  margin-right: 20%;
+  padding-bottom: 30px;
+}
+
+a {
+  text-decoration: none;
+  color: #7b7c78;
+}
+
+
+.extra-space {
+  margin-top: 75px;
+  background-color: #f8f5f2;
+}
+
+/* .div.card-container.card {
+  height: 100px;
+} */
+
+/* .card-name {
+  
+  letter-spacing: 4px;
+  font-weight: 370;
+  text-decoration: none;
+  font-family: 'Baloo 2';
+} */
+
+@media only screen and (min-width: 375px) {
+  .card-name {
+    
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .card-name1 {
+    
+    margin-left: 5%;
+    margin-right: 5%;
+    
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .card-name {
+    
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+
+  .card-name1 {
+    
+    margin-left: 20%;
+    margin-right: 20%;
+    
+  }
+}
