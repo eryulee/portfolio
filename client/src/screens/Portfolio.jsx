@@ -45,7 +45,7 @@ export default function Portfolio() {
               />
             </div>
               <div className='card-title'>
-                <p className="card-name">Crib Notes is an app that I built using React and pure css. I used airtable to build out my own API. It is published on netlify. It is an app where users can compare, review, and rate different baby products.</p>
+                <p className="card-name">Crib Notes is an app that I built using React, javascript and pure css. I used airtable to build out my own API. It is published on netlify. It is an app where users can compare, review, and rate different baby products.</p>
               </div>
           </a>
         </div>

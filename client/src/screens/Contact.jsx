@@ -15,7 +15,7 @@ const Contact = () => {
     emailjs
       .sendForm(
         "service_xdj784n",
-        "template_7wzy2y9",
+        "template_dms8e7i",
         form.current,
         "user_BprWeoht3mLXWPFWcoKy2"
       )
@@ -47,9 +47,9 @@ const Contact = () => {
       <div className='form-div'>
       <div className='form-input'>
     <form className='form' ref={form} onSubmit={sendEmail}>
-      <input type="text" name="user_name" placeholder='Name:' className='input'/>
+      <input type="text" name="from_name" placeholder='Name:' className='input'/>
      <br />
-      <input type="email" name="user_email" placeholder='Email:' className='input'/>
+      <input type="email" name="from_email" placeholder='Email:' className='input'/>
      <br />
           <textarea name="message" placeholder='Message:' className='input'/>
           <br />
