@@ -1,11 +1,13 @@
+import emailjs from "emailjs-com";
+import { init } from 'emailjs-com';
 import "./Contact.css";
 import React, { useRef } from "react";
-import emailjs from "emailjs-com";
 import { useHistory } from "react-router-dom";
 import { Link } from "react-router-dom";
 
 
 const Contact = () => {
+  init("user_BprWeoht3mLXWPFWcoKy2");
   const form = useRef();
   let history = useHistory();
 
